@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C07BFAF27600A0200D14CD0 /* HolidayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07BFAE27600A0200D14CD0 /* HolidayInfo.swift */; };
+		9C07BFB127600A0E00D14CD0 /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07BFB027600A0E00D14CD0 /* CountryInfo.swift */; };
+		9C07BFB32760180800D14CD0 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07BFB22760180800D14CD0 /* APIHelper.swift */; };
+		9C07BFB527602A3700D14CD0 /* HolidaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07BFB427602A3700D14CD0 /* HolidaysTableViewController.swift */; };
+		9C07BFB72760398300D14CD0 /* HolidayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07BFB62760398300D14CD0 /* HolidayDetailViewController.swift */; };
+		9CF141A5276AB4DD00ECDFBA /* HolidaySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF141A4276AB4DD00ECDFBA /* HolidaySearchViewController.swift */; };
 		9CF8B5402756B8F6009ED1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B53F2756B8F6009ED1EB /* AppDelegate.swift */; };
 		9CF8B5422756B8F6009ED1EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B5412756B8F6009ED1EB /* SceneDelegate.swift */; };
-		9CF8B5442756B8F6009ED1EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B5432756B8F6009ED1EB /* ViewController.swift */; };
 		9CF8B5472756B8F6009ED1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8B5452756B8F6009ED1EB /* Main.storyboard */; };
 		9CF8B54A2756B8F6009ED1EB /* HolidayApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8B5482756B8F6009ED1EB /* HolidayApp.xcdatamodeld */; };
 		9CF8B54C2756B8F7009ED1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF8B54B2756B8F7009ED1EB /* Assets.xcassets */; };
@@ -17,10 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C07BFAE27600A0200D14CD0 /* HolidayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayInfo.swift; sourceTree = "<group>"; };
+		9C07BFB027600A0E00D14CD0 /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
+		9C07BFB22760180800D14CD0 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		9C07BFB427602A3700D14CD0 /* HolidaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysTableViewController.swift; sourceTree = "<group>"; };
+		9C07BFB62760398300D14CD0 /* HolidayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayDetailViewController.swift; sourceTree = "<group>"; };
+		9CF141A4276AB4DD00ECDFBA /* HolidaySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchViewController.swift; sourceTree = "<group>"; };
 		9CF8B53C2756B8F6009ED1EB /* HolidayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF8B53F2756B8F6009ED1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF8B5412756B8F6009ED1EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CF8B5432756B8F6009ED1EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CF8B5462756B8F6009ED1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF8B5492756B8F6009ED1EB /* HolidayApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HolidayApp.xcdatamodel; sourceTree = "<group>"; };
 		9CF8B54B2756B8F7009ED1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C07BFAD276009F200D14CD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C07BFAE27600A0200D14CD0 /* HolidayInfo.swift */,
+				9C07BFB027600A0E00D14CD0 /* CountryInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9CF8B5332756B8F6009ED1EB = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +77,18 @@
 		9CF8B53E2756B8F6009ED1EB /* HolidayApp */ = {
 			isa = PBXGroup;
 			children = (
+				9C07BFAD276009F200D14CD0 /* Models */,
 				9CF8B53F2756B8F6009ED1EB /* AppDelegate.swift */,
 				9CF8B5412756B8F6009ED1EB /* SceneDelegate.swift */,
-				9CF8B5432756B8F6009ED1EB /* ViewController.swift */,
 				9CF8B5452756B8F6009ED1EB /* Main.storyboard */,
 				9CF8B54B2756B8F7009ED1EB /* Assets.xcassets */,
 				9CF8B54D2756B8F7009ED1EB /* LaunchScreen.storyboard */,
 				9CF8B5502756B8F7009ED1EB /* Info.plist */,
 				9CF8B5482756B8F6009ED1EB /* HolidayApp.xcdatamodeld */,
+				9C07BFB22760180800D14CD0 /* APIHelper.swift */,
+				9C07BFB427602A3700D14CD0 /* HolidaysTableViewController.swift */,
+				9C07BFB62760398300D14CD0 /* HolidayDetailViewController.swift */,
+				9CF141A4276AB4DD00ECDFBA /* HolidaySearchViewController.swift */,
 			);
 			path = HolidayApp;
 			sourceTree = "<group>";
@@ -141,7 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF8B5442756B8F6009ED1EB /* ViewController.swift in Sources */,
+				9CF141A5276AB4DD00ECDFBA /* HolidaySearchViewController.swift in Sources */,
+				9C07BFB72760398300D14CD0 /* HolidayDetailViewController.swift in Sources */,
+				9C07BFB527602A3700D14CD0 /* HolidaysTableViewController.swift in Sources */,
+				9C07BFB32760180800D14CD0 /* APIHelper.swift in Sources */,
+				9C07BFAF27600A0200D14CD0 /* HolidayInfo.swift in Sources */,
+				9C07BFB127600A0E00D14CD0 /* CountryInfo.swift in Sources */,
 				9CF8B5402756B8F6009ED1EB /* AppDelegate.swift in Sources */,
 				9CF8B54A2756B8F6009ED1EB /* HolidayApp.xcdatamodeld in Sources */,
 				9CF8B5422756B8F6009ED1EB /* SceneDelegate.swift in Sources */,
